@@ -1,0 +1,27 @@
+@use '../../styles/colors';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: colors.$primary;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.link {
+    color: #eef;
+    padding: 0.2rem 0.4rem;
+    &:hover {
+        color: #fff;
+    }
+}

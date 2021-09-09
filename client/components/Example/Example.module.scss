@@ -1,0 +1,15 @@
+@use '../../styles/colors';
+
+.container {
+    background: #fff;
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.message {
+    font-size: 2rem;
+    color: colors.$primary;
+}
